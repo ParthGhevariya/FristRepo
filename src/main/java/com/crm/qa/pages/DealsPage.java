@@ -13,5 +13,8 @@ public class DealsPage extends TestBase  {
 	
 	@FindBy(xpath = "//button[text()='Create']")
 	WebElement createDeals;
+	
+	@FindBy(name = "title")
+	WebElement title;
 
 }
