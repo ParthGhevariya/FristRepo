@@ -10,5 +10,8 @@ public class DealsPage extends TestBase  {
 	//Page Factory
 	@FindBy(xpath = "//div[text()='Deals']")
 	WebElement dealsLabel;
+	
+	@FindBy(xpath = "//button[text()='Create']")
+	WebElement createDeals;
 
 }
