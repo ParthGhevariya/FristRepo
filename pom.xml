@@ -5,7 +5,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>CRMTestAutomation</groupId>
-  <artifactId>CRMTest</artifactId>
+  <artifactId>GitCRMTest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
 
   <name>CRMTest</name>
