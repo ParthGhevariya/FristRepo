@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="CRM Application Test Automation">
+  <test name="CRM Application Test">
+    <classes>
+      
+      <listeners>
+		<listener class-name="com.qa.ExtentReportListener.ExtentReporterNG" />
+	  </listeners>
+      
+      
+      
+      <!-- class name = "PACKAGE_NAME.TEST" -->
+      <class name="com.crm.qa.testCases.LoginPageTest"/>
+      <class name="com.crm.qa.testCases.HomePageTest"/>
+      <class name="com.crm.qa.testCases.ContactsPageTest"/>
+    
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
